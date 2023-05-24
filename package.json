@@ -1,0 +1,30 @@
+{
+    "name": "dark_&_light",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@lottiefiles/react-lottie-player": "^3.4.1",
+        "@thirdweb-dev/react": "^3.12.2",
+        "@thirdweb-dev/sdk": "^3.10.17",
+        "next": "^13.2.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.2.1",
+        "thirdweb": "^0.10.18",
+        "typescript": "^4.5.4"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.41",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "eslint": "8.17.0",
+        "eslint-config-next": "13.2.4",
+        "typescript": "4.7.3"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export -o build/",
+        "start": "next start",
+        "lint": "next lint"
+    }
+}

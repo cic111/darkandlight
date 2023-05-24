@@ -1,0 +1,346 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.tronpngIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 524px;
+  object-fit: cover;
+}
+.div,
+.totalMinted1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 127.7px;
+  height: 21px;
+  flex-shrink: 0;
+}
+.div {
+  width: 43.25px;
+}
+.totalMinted {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.artContainer,
+.buttonBlack {
+  display: flex;
+  align-items: center;
+}
+.artContainer {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.buttonBlack {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-500);
+  padding: 0;
+  background-color: var(--base-white);
+  border-radius: var(--br-xl);
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+  width: 35px;
+  height: 35px;
+  flex-direction: row;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+.buttonBlack:hover {
+  box-shadow: 0 0 12px 1px rgba(215, 1, 13, 0.8);
+}
+.buttonBlack:active {
+  animation: 2s step-start 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.div2 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 39px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.number {
+  align-self: stretch;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 74px;
+}
+.mint {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-artifika);
+  color: var(--base-black);
+  text-align: left;
+}
+.buttonBlack2 {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-500);
+  padding: var(--padding-4xs) var(--padding-9xl) var(--padding-6xs);
+  background-color: var(--base-white);
+  border-radius: var(--br-3xs);
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+  width: 145.8px;
+  height: 34.57px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+.buttonBlack2:hover {
+  box-shadow: 0 0 12px 1px rgba(215, 1, 13, 0.8);
+}
+.buttonBlack2:active {
+  animation: 2s step-start 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.mintButton {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-61xl);
+}
+.mainContainer,
+.mintButton,
+.mintcontetndark {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mintcontetndark {
+  flex-direction: column;
+  gap: 56px;
+  mix-blend-mode: normal;
+}
+.mainContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 19px 200px 0 0;
+  z-index: 1;
+}
+.line23 {
+  position: absolute;
+  margin: 0 !important;
+  width: calc(100% - 406px);
+  top: 80px;
+  right: 203px;
+  left: 203px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.logoWhite2 {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  z-index: 0;
+}
+.layer2Icon,
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 47.11%;
+  width: 58.49%;
+  top: 26.67%;
+  right: 19.7%;
+  bottom: 26.22%;
+  left: 21.8%;
+}
+.icon1 {
+  text-decoration: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.opensea1Icon,
+.twitter {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.opensea1Icon {
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  height: 56.67%;
+  width: 70%;
+  top: 13.33%;
+  right: 16.67%;
+  bottom: 30%;
+  left: 13.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon3 {
+  height: 36.67%;
+  width: 60%;
+  top: 46.67%;
+  right: 13.33%;
+  bottom: 16.67%;
+  left: 26.67%;
+}
+.etherscan {
+  text-decoration: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.icon {
+  width: 144px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-lgi);
+  z-index: 1;
+}
+.line22 {
+  position: absolute;
+  margin: 0 !important;
+  width: calc(100% - 246px);
+  top: -4px;
+  right: 123px;
+  left: 123px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  object-fit: cover;
+  z-index: 2;
+}
+.dark,
+.footer,
+.footercontent {
+  display: flex;
+  align-items: center;
+}
+.footercontent {
+  align-self: stretch;
+  background-color: var(--base-black);
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.dark,
+.footer {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--base-black);
+  height: 50px;
+  padding: 0 var(--padding-61xl);
+  justify-content: center;
+  z-index: 3;
+}
+.dark {
+  position: relative;
+  width: 100%;
+  height: 670px;
+  padding: 3px 0;
+  justify-content: flex-start;
+  background-image: url(/darkmintpage@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 100vh;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--base-white);
+  font-family: var(--font-artifika);
+}
+@media screen and (max-width: 430px) {
+  .tronpngIcon {
+    display: none;
+  }
+  .mainContainer,
+  .mintcontetndark {
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .mintcontetndark {
+    flex-direction: column;
+    gap: var(--gap-31xl);
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-81xl);
+  }
+  .mainContainer {
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .line22 {
+    display: none;
+  }
+  .footercontent {
+    gap: 100px;
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dark {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

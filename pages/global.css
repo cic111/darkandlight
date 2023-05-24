@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Artifika:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-artifika: Artifika;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-49xl: 68px;
+  --font-size-7xl: 26px;
+  --font-size-5xl: 24px;
+  --font-size-23xl: 42px;
+  --font-size-61xl: 80px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --grayscale-placehoder: #888;
+  --color-gray-100: #2b2b2b;
+  --color-gray-200: #181818;
+  --base-black: #090909;
+  --color-gray-500: rgba(136, 136, 136, 0.5);
+  --color-gray-300: rgba(255, 255, 255, 0.8);
+  --color-gray-400: rgba(24, 24, 24, 0.8);
+  --base-white: #fafcf4;
+  --color-ghostwhite: #f4f7ff;
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-31xl: 50px;
+  --gap-lgi: 19px;
+  --gap-42xl: 61px;
+  --gap-13xl: 32px;
+  --gap-61xl: 80px;
+  --gap-49xl: 68px;
+  --gap-45xl: 64px;
+  --gap-7xl: 26px;
+  --gap-21xl: 40px;
+  --gap-27xl: 46px;
+  --gap-5xs: 8px;
+  --gap-23xl: 42px;
+  --gap-5xl: 24px;
+  --gap-361xl: 380px;
+  --gap-161xl: 180px;
+  --gap-0: 0px;
+  --gap-437xl: 456px;
+  --gap-181xl: 200px;
+
+  /* Paddings */
+  --padding-11xs: 2px;
+  --padding-61xl: 80px;
+  --padding-xl: 20px;
+  --padding-91xl: 110px;
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-4xs: 9px;
+  --padding-9xl: 28px;
+  --padding-6xs: 7px;
+  --padding-71xl: 90px;
+  --padding-5xl: 24px;
+  --padding-21xl: 40px;
+  --padding-base: 16px;
+  --padding-101xl: 120px;
+  --padding-xs: 12px;
+  --padding-81xl: 100px;
+
+  /* border radiuses */
+  --br-xs: 12px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+}

@@ -1,0 +1,10 @@
+.darkArt {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 247px;
+  height: 247px;
+  background-image: url(/darkart@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

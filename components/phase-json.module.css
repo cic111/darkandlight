@@ -1,0 +1,13 @@
+.phasejson {
+  flex: 1;
+  position: relative;
+  height: 671px;
+  overflow: hidden;
+}
+@media screen and (max-width: 430px) {
+  .phasejson {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+}

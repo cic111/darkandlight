@@ -1,0 +1,25 @@
+.jsonsnakes {
+  position: absolute;
+  margin: 0 !important;
+  width: 100%;
+  top: 17px;
+  right: 0;
+  left: 0;
+  height: 579px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/jsonsnakes@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 0;
+}
+@media screen and (max-width: 430px) {
+  .jsonsnakes {
+    display: none;
+    align-self: stretch;
+    width: auto;
+    height: 200px;
+    margin-top: 0;
+  }
+}

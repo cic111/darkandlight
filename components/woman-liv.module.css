@@ -1,0 +1,23 @@
+.womanLiv {
+  flex: 1;
+  position: relative;
+  height: 747px;
+  background-image: url(/0060min1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+@media screen and (max-width: 960px) {
+  .womanLiv {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+}
+@media screen and (max-width: 430px) {
+  .womanLiv {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+}

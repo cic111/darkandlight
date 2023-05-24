@@ -1,0 +1,118 @@
+.line41,
+.logoWhite2 {
+  position: relative;
+  width: 1276px;
+  height: 1px;
+  object-fit: cover;
+}
+.logoWhite2 {
+  width: 42px;
+  height: 42px;
+}
+.layer2Icon,
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 47.11%;
+  width: 58.49%;
+  top: 26.67%;
+  right: 19.7%;
+  bottom: 26.22%;
+  left: 21.8%;
+}
+.icon1 {
+  text-decoration: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.opensea1Icon,
+.twitter {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.opensea1Icon {
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  height: 56.67%;
+  width: 70%;
+  top: 13.33%;
+  right: 16.67%;
+  bottom: 30%;
+  left: 13.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon3 {
+  height: 36.67%;
+  width: 60%;
+  top: 46.67%;
+  right: 13.33%;
+  bottom: 16.67%;
+  left: 26.67%;
+}
+.etherscan {
+  text-decoration: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.footer,
+.footercontent,
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon {
+  width: 144px;
+  justify-content: flex-end;
+  gap: var(--gap-lgi);
+}
+.footer,
+.footercontent {
+  align-self: stretch;
+  background-color: var(--base-black);
+  justify-content: space-between;
+}
+.footer {
+  height: 77px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-11xs) var(--padding-61xl) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+@media screen and (max-width: 430px) {
+  .footercontent {
+    gap: var(--gap-31xl);
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

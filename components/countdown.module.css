@@ -1,0 +1,22 @@
+.div {
+  position: absolute;
+  margin: 0 !important;
+  width: calc(100% - 1147px);
+  top: calc(50% - 12px);
+  left: 500px;
+  font-size: var(--font-size-11xl);
+  line-height: 24px;
+  font-family: var(--font-artifika);
+  color: var(--base-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 24px;
+  width: 300px;
+  z-index: 2;
+}
+@media screen and (max-width: 960px) {
+  .div {
+    display: none;
+  }
+}
