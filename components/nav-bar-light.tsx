@@ -20,7 +20,7 @@ const NavBarLight: NextPage = () => {
   }, [router]);
 
   const onButtonBlackClick = useCallback(() => {
-    window.open("/dark-mint-page");
+    window.open("/dark");
   }, []);
 
   const onHomeClick = useCallback(() => {

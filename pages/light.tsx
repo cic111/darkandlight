@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import NavBarLight from "../components/nav-bar-light";
-import Lightweb from "../components/lightweb";
 import styles from "./light-mint-page.module.css";
+import Lightweb from "../components/lightweb";
 import {
   useActiveClaimConditionForWallet,
   useAddress,
@@ -304,7 +304,11 @@ const LightMintPage: NextPage = () => {
           </div>
           <img className={styles.logoforwhite} alt="" src="/twitter.svg" />
           <div className={styles.logoforwhite}>
-            <a className={styles.etherscan} href="http://" target="_blank">
+            <a
+              className={styles.etherscan}
+              href="https://etherscan.io/"
+              target="_blank"
+            >
               <img className={styles.vectorIcon} alt="" src="/vector4.svg" />
               <img className={styles.vectorIcon1} alt="" src="/vector5.svg" />
               <img className={styles.vectorIcon2} alt="" src="/vector6.svg" />

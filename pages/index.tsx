@@ -2,18 +2,20 @@ import type { NextPage } from "next";
 import { useCallback } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import NavBar from "../components/nav-bar";
-import JsonSnakes from "../components/json-snakes";
-import WomanLiv from "../components/woman-liv";
-import PhaseJson from "../components/phase-json";
 import Footer from "../components/footer";
 import styles from "./index.module.css";
+import dynamic from "next/dynamic";
+
 const Home: NextPage = () => {
+  const JsonSnakes = dynamic(() => import("../components/json-snakes"));
+  const PhaseJson = dynamic(() => import("../components/phase-json"));
+  const WomanLiv = dynamic(() => import("../components/woman-liv"));
   const onButtonDarkClick = useCallback(() => {
-    window.open("/dark-mint-page");
+    window.open("/dark");
   }, []);
 
   const onButtonWhite1Click = useCallback(() => {
-    window.open("/light-mint-page");
+    window.open("/light");
   }, []);
 
   const onAboutClick = useCallback(() => {
@@ -24,11 +26,11 @@ const Home: NextPage = () => {
   }, []);
 
   const onButtonWhite2Click = useCallback(() => {
-    window.open("/light-mint-page");
+    window.open("/light");
   }, []);
 
   const onButtonDark1Click = useCallback(() => {
-    window.open("/dark-mint-page");
+    window.open("/dark");
   }, []);
 
   return (

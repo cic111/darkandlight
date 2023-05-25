@@ -15,7 +15,7 @@ const Navbardark: NextPage = () => {
   }, [router]);
 
   const onButtonWhiteClick = useCallback(() => {
-    window.open("/light-mint-page");
+    window.open("/light");
   }, []);
 
   const onHomeClick = useCallback(() => {

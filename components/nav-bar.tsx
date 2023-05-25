@@ -5,11 +5,11 @@ import { ConnectWallet } from "@thirdweb-dev/react";
 
 const NavBar: NextPage = () => {
   const onButtonBlackClick = useCallback(() => {
-    window.open("/dark-mint-page");
+    window.open("/dark");
   }, []);
 
   const onButtonWhiteClick = useCallback(() => {
-    window.open("/light-mint-page");
+    window.open("/light");
   }, []);
 
   const onAbout1Click = useCallback(() => {

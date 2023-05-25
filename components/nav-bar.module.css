@@ -188,7 +188,7 @@
   align-items: center;
 }
 .linkandconnect {
-  width: 674px;
+  width: 720px;
   justify-content: flex-start;
   gap: var(--gap-13xl);
 }
