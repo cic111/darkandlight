@@ -20,7 +20,7 @@ import { useMemo, useState } from "react";
 
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
-  "0x7Ec1690A646F9104FBcB4230C1db6e94A6E36edb";
+  "0x869D7aE9d5b5dB9EA379baE747A6bAE6e849aD27";
 
 // Put your token ID here
 const tokenId = 1;
