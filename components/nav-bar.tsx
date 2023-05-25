@@ -2,15 +2,16 @@ import type { NextPage } from "next";
 import { useCallback } from "react";
 import styles from "./nav-bar.module.css";
 import { ConnectWallet } from "@thirdweb-dev/react";
+import router from "next/router";
 
 const NavBar: NextPage = () => {
   const onButtonBlackClick = useCallback(() => {
-    window.open("/dark");
-  }, []);
+    router.push("/dark");
+  }, [router]);
 
   const onButtonWhiteClick = useCallback(() => {
-    window.open("/light");
-  }, []);
+    router.push("/light");
+  }, [router]);
 
   const onAbout1Click = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='about1']");
