@@ -3,6 +3,7 @@ import Head from "next/head";
 import type { AppProps } from "next/app";
 import "./global.css";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="favicon.ico" />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </ThirdwebProvider>
   );
 }
