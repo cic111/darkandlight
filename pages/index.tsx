@@ -1,15 +1,11 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import { Player } from "@lottiefiles/react-lottie-player";
 import NavBar from "../components/nav-bar";
 import Footer from "../components/footer";
 import styles from "./index.module.css";
-import dynamic from "next/dynamic";
 import router from "next/router";
 
 const Home: NextPage = () => {
-  const PhaseJson = dynamic(() => import("../components/phase-json"));
-  const WomanLiv = dynamic(() => import("../components/woman-liv"));
   const onButtonDarkClick = useCallback(() => {
     router.push("/dark");
   }, [router]);
