@@ -86,13 +86,11 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <WomanLiv />
         </div>
         <img className={styles.linewhiteIcon} alt="" src="/linewhite@1x.png" />
       </div>
       <div className={styles.phase}>
         <div className={styles.phasecontent}>
-          <PhaseJson />
           <div className={styles.phasetextblock}>
             <div className={styles.phase1}>Phase</div>
             <div className={styles.phasecontainer}>
@@ -161,20 +159,7 @@ const Home: NextPage = () => {
               src="/backimgmerge@1x.png"
             />
             <div className={styles.imageandbuttonconvers}>
-              <div className={styles.carddl}>
-                <Player
-                  className={styles.light5}
-                  autoplay
-                  src="/light300.json"
-                  loop
-                />
-                <Player
-                  className={styles.dark3}
-                  autoplay
-                  src="/dark300.json"
-                  loop
-                />
-              </div>
+              <div className={styles.carddl}>tt</div>
               <div className={styles.buttondlmerge}>
                 <button
                   className={styles.buttonWhite1}
