@@ -8,7 +8,6 @@ import dynamic from "next/dynamic";
 import router from "next/router";
 
 const Home: NextPage = () => {
-  const JsonSnakes = dynamic(() => import("../components/json-snakes"));
   const PhaseJson = dynamic(() => import("../components/phase-json"));
   const WomanLiv = dynamic(() => import("../components/woman-liv"));
   const onButtonDarkClick = useCallback(() => {
@@ -38,7 +37,6 @@ const Home: NextPage = () => {
     <div className={styles.home}>
       <NavBar />
       <div className={styles.herocontainer}>
-        <JsonSnakes />
         <div className={styles.heroinfo}>
           <div className={styles.whoseSideAre}>Whose side are you on?</div>
           <div className={styles.buttonText}>
