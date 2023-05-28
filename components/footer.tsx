@@ -13,10 +13,7 @@ const Footer: NextPage = () => {
         <img className={styles.logoWhite2} alt="" src="/logo-white-21@2x.png" />
         <div className={styles.icon}>
           <div className={styles.twitter}>
-            <a
-              className={styles.icon1}
-              href="https://twitter.com/darkandlightnft"
-            >
+            <a className={styles.icon1} href="https://twitter.com/home">
               <img className={styles.layer2Icon} alt="" src="/layer-2.svg" />
               <img className={styles.vectorIcon} alt="" src="/vector.svg" />
             </a>
