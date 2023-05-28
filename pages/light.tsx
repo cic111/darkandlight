@@ -292,30 +292,7 @@ const LightMintPage: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.footer}>
-        <div className={styles.icon}>
-          <div className={styles.logoforwhite}>
-            <div className={styles.logoforwhiteChild} />
-            <img
-              className={styles.logoWhite2}
-              alt=""
-              src="/logo-white-23@2x.png"
-            />
-          </div>
-          <img className={styles.logoforwhite} alt="" src="/twitter.svg"  href="https://twitter.com/darkandlightnft/>
-          <div className={styles.logoforwhite}>
-            <a
-              className={styles.etherscan}
-              href="https://etherscan.io/"
-              target="_blank"
-            >
-              <img className={styles.vectorIcon} alt="" src="/vector4.svg" />
-              <img className={styles.vectorIcon1} alt="" src="/vector5.svg" />
-              <img className={styles.vectorIcon2} alt="" src="/vector6.svg" />
-            </a>
-          </div>
-        </div>
-      </div>
+      <div className={styles.footer}>link</div>
     </div>
   );
 };
