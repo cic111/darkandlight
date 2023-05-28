@@ -261,7 +261,7 @@ const DarkMintPage: NextPage = () => {
             </div>
             {isSoldOut ? (
               <div>
-                <h2>Connect Wallet</h2>
+                <h1 className={styles.mint}>Connect Wallet</h1>
               </div>
             ) : (
               <Web3Button
@@ -293,7 +293,10 @@ const DarkMintPage: NextPage = () => {
           />
           <div className={styles.icon}>
             <div className={styles.twitter}>
-              <a className={styles.icon1} href="https://twitter.com/home">
+              <a
+                className={styles.icon1}
+                href="https://twitter.com/darkandlightnft"
+              >
                 <img className={styles.layer2Icon} alt="" src="/layer-21.svg" />
                 <img className={styles.vectorIcon} alt="" src="/vector7.svg" />
               </a>

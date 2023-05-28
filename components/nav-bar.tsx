@@ -103,7 +103,7 @@ const NavBar: NextPage = () => {
               <div className={styles.anchorFaq} data-scroll-to="faq" />
             </a>
           </div>
-          <ConnectWallet btnTitle="Connect" />
+          <ConnectWallet btnTitle="CONNECT" />
         </div>
       </div>
       <img className={styles.line41} alt="" src="/line-4-1@2x.png" />
