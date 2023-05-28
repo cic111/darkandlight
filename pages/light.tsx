@@ -302,7 +302,7 @@ const LightMintPage: NextPage = () => {
               src="/logo-white-23@2x.png"
             />
           </div>
-          <img className={styles.logoforwhite} alt="" src="/twitter.svg" />
+          <img className={styles.logoforwhite} alt="" src="/twitter.svg"  href="https://twitter.com/darkandlightnft/>
           <div className={styles.logoforwhite}>
             <a
               className={styles.etherscan}
