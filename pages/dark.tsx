@@ -292,15 +292,6 @@ const DarkMintPage: NextPage = () => {
             src="/logo-white-21@2x.png"
           />
           <div className={styles.icon}>
-            <div className={styles.twitter}>
-              <a
-                className={styles.icon1}
-                href="https://twitter.com/darkandlightnft"
-              >
-                <img className={styles.layer2Icon} alt="" src="/layer-21.svg" />
-                <img className={styles.vectorIcon} alt="" src="/vector7.svg" />
-              </a>
-            </div>
             <img
               className={styles.opensea1Icon}
               alt=""
