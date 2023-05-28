@@ -4,8 +4,12 @@ import NavBar from "../components/nav-bar";
 import Footer from "../components/footer";
 import styles from "./index.module.css";
 import router from "next/router";
+import dynamic from "next/dynamic";
 
 const Home: NextPage = () => {
+  const PhaseJson = dynamic(() => import("../components/phase-json"));
+  const WomanLiv = dynamic(() => import("../components/woman-liv"));
+  const JsonSnakes = dynamic(() => import("../components/json-snakes"));
   const onButtonDarkClick = useCallback(() => {
     router.push("/dark");
   }, [router]);
@@ -32,7 +36,9 @@ const Home: NextPage = () => {
   return (
     <div className={styles.home}>
       <NavBar />
+
       <div className={styles.herocontainer}>
+        <JsonSnakes />
         <div className={styles.heroinfo}>
           <div className={styles.whoseSideAre}>Whose side are you on?</div>
           <div className={styles.buttonText}>
@@ -86,11 +92,13 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+          <WomanLiv />
         </div>
         <img className={styles.linewhiteIcon} alt="" src="/linewhite@1x.png" />
       </div>
       <div className={styles.phase}>
         <div className={styles.phasecontent}>
+          <PhaseJson />
           <div className={styles.phasetextblock}>
             <div className={styles.phase1}>Phase</div>
             <div className={styles.phasecontainer}>
@@ -159,7 +167,30 @@ const Home: NextPage = () => {
               src="/backimgmerge@1x.png"
             />
             <div className={styles.imageandbuttonconvers}>
-              <div className={styles.carddl}>tt</div>
+              <div className={styles.carddl}>
+                <video
+                  className={styles.light5}
+                  width="300"
+                  height="300"
+                  autoPlay
+                  loop
+                  muted
+                >
+                  <source src="/light100.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <video
+                  className={styles.dark3}
+                  width="300"
+                  height="300"
+                  autoPlay
+                  loop
+                  muted
+                >
+                  <source src="/dark100.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
               <div className={styles.buttondlmerge}>
                 <button
                   className={styles.buttonWhite1}

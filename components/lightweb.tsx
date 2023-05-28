@@ -1,9 +1,18 @@
 import type { NextPage } from "next";
-import { Player } from "@lottiefiles/react-lottie-player";
 import styles from "./lightweb.module.css";
 const Lightweb: NextPage = () => {
   return (
-    <Player className={styles.lightweb} autoplay src="/light300.json" loop />
+    <video
+      className={styles.lightweb}
+      width="300"
+      height="300"
+      autoPlay
+      loop
+      muted
+    >
+      <source src="/light100.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
   );
 };
 

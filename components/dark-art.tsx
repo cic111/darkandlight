@@ -1,9 +1,18 @@
 import type { NextPage } from "next";
-import { Player } from "@lottiefiles/react-lottie-player";
 import styles from "./dark-art.module.css";
 const DarkArt: NextPage = () => {
   return (
-    <Player className={styles.darkArt} autoplay src="/dark300.json" loop />
+    <video
+      className={styles.darkArt}
+      width="300"
+      height="300"
+      autoPlay
+      loop
+      muted
+    >
+      <source src="/dark100.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
   );
 };
 

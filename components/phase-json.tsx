@@ -1,15 +1,18 @@
 import type { NextPage } from "next";
-import { Player } from "@lottiefiles/react-lottie-player";
 import styles from "./phase-json.module.css";
 const PhaseJson: NextPage = () => {
   return (
-    <Player
+    <video
       className={styles.phasejson}
-      autoplay
-      src="/pyramid.json"
+      width="300"
+      height="300"
+      autoPlay
       loop
-      speed={0.7}
-    />
+      muted
+    >
+      <source src="/phase.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
   );
 };
 
