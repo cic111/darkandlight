@@ -5,6 +5,9 @@ const Footer: NextPage = () => {
   const onOpensea1IconClick = useCallback(() => {
     window.open("https://opensea.io/");
   }, []);
+  const onTwitterClick = useCallback(() => {
+    window.open("https://twitter.com/darkandlightnft");
+  }, []);
 
   return (
     <div className={styles.footer}>
@@ -17,6 +20,12 @@ const Footer: NextPage = () => {
             alt=""
             src="/opensea-1.svg"
             onClick={onOpensea1IconClick}
+          />
+          <img
+            className={styles.opensea1Icon}
+            alt=""
+            src="/icontwitter.svg"
+            onClick={onTwitterClick}
           />
           <a
             className={styles.etherscan}
