@@ -28,7 +28,7 @@ const tokenId = 0;
 
 const LightMintPage: NextPage = () => {
   const onOpensea1IconClick = useCallback(() => {
-    window.open("https://opensea.io/");
+    window.open("https://opensea.io/collection/darkandlight-nft");
   }, []);
   const onTwitterClick = useCallback(() => {
     window.open("https://twitter.com/darkandlightnft");
@@ -303,21 +303,19 @@ const LightMintPage: NextPage = () => {
       <div className={styles.footer}>
         <div className={styles.icon}>
           <div className={styles.logoforwhite}>
-            <div className={styles.logoforwhiteChild} />
             <img
               className={styles.logoWhite2}
               alt=""
-              src="/logo-white-23@2x.png"
+              src="/twitterblack.svg"
+              onClick={onTwitterClick}
             />
           </div>
           <div className={styles.logoforwhite}>
             <img
               className={styles.logoWhite2}
-              width="50"
-              height="50"
               alt=""
-              src="/twitterblack.svg"
-              onClick={onTwitterClick}
+              src="/openseablack.svg"
+              onClick={onOpensea1IconClick}
             />
           </div>
         </div>

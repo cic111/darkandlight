@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import styles from "./footer.module.css";
 const Footer: NextPage = () => {
   const onOpensea1IconClick = useCallback(() => {
-    window.open("https://opensea.io/");
+    window.open("https://opensea.io/collection/darkandlight-nft");
   }, []);
   const onTwitterClick = useCallback(() => {
     window.open("https://twitter.com/darkandlightnft");
