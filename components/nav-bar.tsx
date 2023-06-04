@@ -5,6 +5,12 @@ import { ConnectWallet } from "@thirdweb-dev/react";
 import router from "next/router";
 
 const NavBar: NextPage = () => {
+  const onOpensea1IconClick = useCallback(() => {
+    window.open("https://opensea.io/");
+  }, []);
+  const onTwitterClick = useCallback(() => {
+    window.open("https://twitter.com/darkandlightnft");
+  }, []);
   const onButtonBlackClick = useCallback(() => {
     router.push("/dark");
   }, [router]);
@@ -105,6 +111,14 @@ const NavBar: NextPage = () => {
           </div>
           <ConnectWallet btnTitle="CONNECT" />
         </div>
+        <img
+          className={styles.opensea1Icon}
+          width="40"
+          height="40"
+          alt=""
+          src="/icontwitter.svg"
+          onClick={onTwitterClick}
+        />
       </div>
       <img className={styles.line41} alt="" src="/line-4-1@2x.png" />
     </div>

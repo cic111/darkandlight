@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import NavBarLight from "../components/nav-bar-light";
+import { useCallback } from "react";
 import styles from "./light-mint-page.module.css";
 import Lightweb from "../components/lightweb";
 import {
@@ -26,6 +27,13 @@ const myEditionDropContractAddress =
 const tokenId = 0;
 
 const LightMintPage: NextPage = () => {
+  const onOpensea1IconClick = useCallback(() => {
+    window.open("https://opensea.io/");
+  }, []);
+  const onTwitterClick = useCallback(() => {
+    window.open("https://twitter.com/darkandlightnft");
+  }, []);
+
   const address = useAddress();
   const [quantity, setQuantity] = useState(1);
   const { contract: editionDrop } = useContract(myEditionDropContractAddress);
@@ -292,7 +300,28 @@ const LightMintPage: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.footer}>link</div>
+      <div className={styles.footer}>
+        <div className={styles.icon}>
+          <div className={styles.logoforwhite}>
+            <div className={styles.logoforwhiteChild} />
+            <img
+              className={styles.logoWhite2}
+              alt=""
+              src="/logo-white-23@2x.png"
+            />
+          </div>
+          <div className={styles.logoforwhite}>
+            <img
+              className={styles.logoWhite2}
+              width="50"
+              height="50"
+              alt=""
+              src="/twitterblack.svg"
+              onClick={onTwitterClick}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

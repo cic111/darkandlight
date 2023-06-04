@@ -103,14 +103,15 @@ const Home: NextPage = () => {
             <div className={styles.phase1}>Phase</div>
             <div className={styles.phasecontainer}>
               <div className={styles.phase11}>
-                <div className={styles.phase1Free}>Phase 1: FREE mint</div>
+                <div className={styles.phase1Free}>Phase 1: WhiteList Mint</div>
                 <img
                   className={styles.linephase12Icon}
                   alt=""
                   src="/linephase1-2@2x.png"
                 />
                 <div className={styles.mintOpenWithin}>
-                  The first 1000 NFTs will be free. Free mint in FCFS format
+                  WL minting will commence alongside the public mint and will
+                  last for 24 hours. 1 WL - 4 Free NFTs: 2 X DARK & 2 X LIGHT.
                 </div>
               </div>
               <img
@@ -135,15 +136,15 @@ const Home: NextPage = () => {
                 src="/polygon-1.svg"
               />
               <div className={styles.phase2}>
-                <div className={styles.phase1Free}>Phase 3: Сonversion</div>
+                <div className={styles.phase1Free}>Phase 3: Conversion</div>
                 <img
                   className={styles.linephase12Icon}
                   alt=""
                   src="/linephase1-2@2x.png"
                 />
                 <div className={styles.mintOpenWithin}>
-                  Conversion ERC1155 token into an Ordinal inscription in the
-                  Bitcoin blockchain.
+                  Bridge ERC1155 token into an Ordinal Collection in the Bitcoin
+                  blockchain.
                 </div>
               </div>
               <img
@@ -340,7 +341,7 @@ const Home: NextPage = () => {
             </div>
             <div className={styles.cardmintdate}>
               <div className={styles.nftFree}>
-                1 NFT - Free mint | 20 NFTs - Public
+                WL - 4 NFTs | Public - 20 NFTs
               </div>
               <img
                 className={styles.vector32}
@@ -352,7 +353,7 @@ const Home: NextPage = () => {
             <div className={styles.manytokens1}>
               <div className={styles.mintPrice}>Mint Price?</div>
               <div className={styles.first1000}>
-                First 1000 - Free | Public = 0.003 ETH
+                WL - Free | Public = 0.003 ETH
               </div>
               <img
                 className={styles.vector31}
